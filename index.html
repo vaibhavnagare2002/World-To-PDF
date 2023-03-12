@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCX to PDF</title>
+</head>
+<style>
+    body{
+        background-color:aqua;
+    }
+    
+    .container{
+        height: 50px;
+        padding: 100px;
+    }
+</style>
+<body>
+    <div class="container">
+    <form action="/docxtopdf" method="post" enctype="multipart/form-data">
+        <input id="f" type="file" name="file" required id="">
+        <input id="a" type="submit" value="Download PDF File">
+    </form>
+</div>
+</body>
+</html>
